@@ -7,10 +7,9 @@ Authors@R:
            role = c("aut", "cre", "cph"),
            email = "r.dinnage@gmail.com",
            comment = c(ORCID = "0000-0003-0846-2819"))
-Description: >
-    R package to help with creating simulation-on-the-fly based likelihood-free 
-    inference engines. Based on ideas in 
-    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7687905/
+Description: R package to help with creating simulation-on-the-fly based 
+    likelihood-free inference engines. Based on ideas in 
+    <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7687905/>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -20,5 +19,12 @@ Imports:
     torch
 Suggests: 
     testthat (>= 3.0.0),
-    slimr
+    slimr (>= 0.0.0.9001),
+    spelling,
+    knitr,
+    rmarkdown
 Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
+Remotes:  
+    rdinnager/slimr

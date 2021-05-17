@@ -111,6 +111,7 @@ slim_script(
       
       ## output individuals genomes
       slimr_output_nucleotides(both_genomes = TRUE, inds = ind_sample)
+      slimr_output(ind_sample.subpopulation, "subpops")
       # slimr_output(ind_sample.genomes.output(), "pop_sample", do_every = 1);
       # slimr_output(ind_sample.genomes.individual.subpopulation, "subpops", do_every = 1)
     }
